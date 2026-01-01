@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Tech - Soporte Técnico & Smart Home</title>
+    
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Iconos Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS - Animate On Scroll -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+<body>
+    <!-- 
+    ====================================
+    SECCIÓN 1: NAVBAR
+    ====================================
+    Barra de navegación sticky centrada
+    -->
+    <nav class="navbar-container">
+        <div class="navbar">
+            <!-- LOGO CON ICONO -->
+            <div class="logo" data-aos="fade-right">
+                <i class="fas fa-laptop-code"></i>
+                <span>Diego Tech</span>
+            </div>
+            
+            <!-- MENÚ DE NAVEGACIÓN (CENTRADO) -->
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#paquetes" class="nav-link">Paquetes</a></li>
+                <li><a href="#trabajos" class="nav-link">Trabajos</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+
+            <!-- MENÚ HAMBURGUESA (MÓVIL) -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 
+    ====================================
+    SECCIÓN 2: HERO (PORTADA PRINCIPAL)
+    ====================================
+    Sección principal con carrusel de fondo, título y CTA de WhatsApp
+    -->
+    <section id="inicio" class="hero">
+        <!-- CARRUSEL DE FONDO -->
+        <div class="carousel-background">
+            <div class="carousel-bg-item active">
+                <div class="carousel-bg-content">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Optimización Ultra Rápida</span>
+                </div>
+            </div>
+            <div class="carousel-bg-item">
+                <div class="carousel-bg-content">
+                    <i class="fas fa-file-word"></i>
+                    <span>Office Completo Activado</span>
+                </div>
+            </div>
+            <div class="carousel-bg-item">
+                <div class="carousel-bg-content">
+                    <i class="fas fa-home"></i>
+                    <span>Hogar Inteligente Configurado</span>
+                </div>
+            </div>
+            <div class="carousel-bg-item">
+                <div class="carousel-bg-content">
+                    <i class="fas fa-headset"></i>
+                    <span>Soporte Técnico 24/7</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <h1>Transformamos Tu Tecnología</h1>
+            <p>Optimización de PC, Office Activado y Hogar Inteligente</p>
+            <!-- BOTÓN PRINCIPAL A WHATSAPP -->
+            <a href="https://wa.me/5215571513317" class="btn-whatsapp" data-aos="zoom-in" data-aos-delay="300">
+                <i class="fab fa-whatsapp"></i> Contacta por WhatsApp
+            </a>
+        </div>
+        <!-- DECORACIÓN VISUAL (FORMAS FLOTANTES) -->
+        <div class="hero-decorative">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- 
+    ====================================
+    SECCIÓN 3: SERVICIOS
+    ====================================
+    Presenta los 3 servicios principales con iconos y características
+    -->
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2 data-aos="fade-down">Nuestros Servicios</h2>
+            <div class="services-grid">
+                <!-- SERVICIO 1: OPTIMIZACIÓN -->
+                <div class="service-box" data-aos="fade-up" data-aos-duration="800">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Optimización Extrema</h3>
+                    <p>Limpieza profunda, eliminación de malware y configuración avanzada para máxima velocidad</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Eliminación de basura</li>
+                        <li><i class="fas fa-check-circle"></i> Aceleración de arranque</li>
+                        <li><i class="fas fa-check-circle"></i> Gestión de RAM</li>
+                    </ul>
+                </div>
+
+                <!-- SERVICIO 2: OFFICE -->
+                <div class="service-box" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-file-word"></i>
+                    </div>
+                    <h3>Suite Office Pro</h3>
+                    <p>Instalación profesional y activación garantizada de Office 365</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Word, Excel, PowerPoint</li>
+                        <li><i class="fas fa-check-circle"></i> Activación de por vida</li>
+                        <li><i class="fas fa-check-circle"></i> Soporte técnico</li>
+                    </ul>
+                </div>
+
+                <!-- SERVICIO 3: SMART HOME -->
+                <div class="service-box" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Hogar Inteligente</h3>
+                    <p>Configuración completa de ecosistemas Alexa y dispositivos inteligentes</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Alexa y focos smart</li>
+                        <li><i class="fas fa-check-circle"></i> Cámaras Wi-Fi</li>
+                        <li><i class="fas fa-check-circle"></i> Automatización total</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    ====================================
+    SECCIÓN 4: PAQUETES Y PRECIOS
+    ====================================
+    Muestra los 3 paquetes con precios y botones de WhatsApp
+    -->
+    <section id="paquetes" class="paquetes">
+        <div class="container">
+            <h2 data-aos="fade-down">Nuestros Paquetes</h2>
+            <div class="paquetes-grid">
+                <!-- PAQUETE 1: COMBO ESTUDIANTE (DESTACADO) -->
+                <div class="paquete-card starred" data-aos="zoom-in" data-aos-duration="800">
+                    <div class="star-badge">⭐ ESTRELLA</div>
+                    <div class="paquete-header">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Combo Estudiante</h3>
+                    </div>
+                    <p class="paquete-desc">Optimización + Office Completo</p>
+                    <div class="paquete-precio">$450 MXN</div>
+                    <p class="paquete-text">¡Vuelve a estrenar tu laptop! Incluye limpieza profunda, aceleración de arranque y Office completo activo.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-circle-check"></i> Limpieza profunda</li>
+                        <li><i class="fas fa-circle-check"></i> Office activado</li>
+                        <li><i class="fas fa-circle-check"></i> Aceleración</li>
+                        <li><i class="fas fa-circle-check"></i> Soporte 1 mes</li>
+                    </ul>
+                    <a href="https://wa.me/5215571513317?text=Quiero%20el%20Combo%20Estudiante%20por%20$300" class="btn-pack">
+                        <i class="fab fa-whatsapp"></i> Contratar Ahora
+                    </a>
+                </div>
+
+                <!-- PAQUETE 2: OFFICE PRO -->
+                <div class="paquete-card" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
+                    <div class="paquete-header">
+                        <i class="fas fa-laptop"></i>
+                        <h3>Suite Office Pro</h3>
+                    </div>
+                    <p class="paquete-desc">Activación Garantizada</p>
+                    <div class="paquete-precio">$250 MXN</div>
+                    <p class="paquete-text">Word, Excel y PowerPoint activados profesionalmente. Sin errores de licencia y listo para usar de por vida.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-circle-check"></i> Instalación rápida</li>
+                        <li><i class="fas fa-circle-check"></i> Activación segura</li>
+                        <li><i class="fas fa-circle-check"></i> Licencia de por vida</li>
+                        <li><i class="fas fa-circle-check"></i> Sin errores</li>
+                    </ul>
+                    <a href="https://wa.me/5215571513317?text=Quiero%20la%20Suite%20Office%20Pro%20por%20$200" class="btn-pack">
+                        <i class="fab fa-whatsapp"></i> Contratar Ahora
+                    </a>
+                </div>
+
+                <!-- PAQUETE 3: SMART HOME -->
+                <div class="paquete-card" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
+                    <div class="paquete-header">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Configuración Smart</h3>
+                    </div>
+                    <p class="paquete-desc">Dispositivos Inteligentes</p>
+                    <div class="paquete-precio">$150 MXN</div>
+                    <p class="paquete-text">Vinculación de Alexa, focos inteligentes o cámaras. Controla todo desde tu celular sin complicaciones.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-circle-check"></i> Configuración Alexa</li>
+                        <li><i class="fas fa-circle-check"></i> Apps controladas</li>
+                        <li><i class="fas fa-circle-check"></i> Soporte completo</li>
+                        <li><i class="fas fa-circle-check"></i> Sin complicaciones</li>
+                    </ul>
+                    <a href="https://wa.me/5215571513317?text=Quiero%20la%20Configuración%20Smart%20por%20$150" class="btn-pack">
+                        <i class="fab fa-whatsapp"></i> Contratar Ahora
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    ====================================
+    SECCIÓN 5: PORTAFOLIO - MIS TRABAJOS
+    ====================================
+    Muestra proyectos realizados: Antes/Después, Velocidad y Testimonios
+    -->
+    <section id="trabajos" class="trabajos">
+        <div class="container">
+            <h2 data-aos="fade-down">Mis Trabajos</h2>
+            <div class="trabajos-grid">
+                <!-- TRABAJO 1: ANTES Y DESPUÉS -->
+                <div class="trabajo-item clickeable" data-aos="fade-right" data-aos-duration="800" onclick="abrirModal(1)">
+                    <div class="work-visual antes-despues">
+                        <!-- ESTADO ANTES -->
+                        <div class="before">
+                            <div class="placeholder">
+                                <i class="fas fa-hourglass-end"></i>
+                                <p>ANTES</p>
+                                <small>Lento y pesado</small>
+                            </div>
+                        </div>
+                        <!-- ESTADO DESPUÉS -->
+                        <div class="after">
+                            <div class="placeholder success">
+                                <i class="fas fa-bolt"></i>
+                                <p>DESPUÉS</p>
+                                <small>Rápido y ágil</small>
+                            </div>
+                        </div>
+                    </div>
+                    <h3><i class="fas fa-images"></i> Captura la Evidencia</h3>
+                    <p>Transformación visual de PC optimizadas. Cambio dramático en velocidad y responsividad.</p>
+                </div>
+
+                <!-- TRABAJO 2: VELOCIDAD -->
+                <div class="trabajo-item clickeable" data-aos="fade-up" data-aos-duration="800" onclick="abrirModal(2)">
+                    <div class="work-visual velocidad">
+                        <div class="speedometer">
+                            <!-- INDICADOR DE VELOCIDAD -->
+                            <div class="gauge">
+                                <i class="fas fa-tachometer-alt"></i>
+                                <span class="speed">+85%</span>
+                            </div>
+                            <!-- ESTADÍSTICAS -->
+                            <div class="stats">
+                                <div class="stat-item">
+                                    <span class="stat-num">12s</span>
+                                    <span class="stat-label">Arranque</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-num">∞</span>
+                                    <span class="stat-label">Velocidad</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3><i class="fas fa-gauge-high"></i> Velocidad Comprobada</h3>
+                    <p>Mediciones reales de mejora de rendimiento. Los números no mienten.</p>
+                </div>
+
+                <!-- TRABAJO 3: TESTIMONIO -->
+                <div class="trabajo-item clickeable" data-aos="fade-left" data-aos-duration="800" onclick="abrirModal(3)">
+                    <div class="work-visual testimonio">
+                        <div class="quote-box">
+                            <!-- COMILLAS Y TEXTO -->
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Diego es un profesional excelente. Mi computadora estaba lentísima y ahora vuela. Super recomendado, excelente atención y precio justo."</p>
+                            <!-- AUTOR -->
+                            <div class="author">
+                                <i class="fas fa-user-tie"></i>
+                                <div>
+                                    <strong>Cliente Verificado</strong>
+                                    <span>⭐⭐⭐⭐⭐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3><i class="fas fa-star"></i> Testimonio Real</h3>
+                    <p>La satisfacción de mis clientes es mi mejor referencia y recomendación.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    ====================================
+    SECCIÓN 6: CONTACTO
+    ====================================
+    Información de contacto y formulario para consultas
+    -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2 data-aos="fade-down">Ponte en Contacto</h2>
+            <div class="contacto-content">
+                <!-- INFORMACIÓN DE CONTACTO (LADO IZQUIERDO) -->
+                <div class="contacto-info">
+                    <!-- OPCIÓN 1: WHATSAPP -->
+                    <div class="contact-item" data-aos="fade-right" data-aos-duration="800">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+52 1 557-151-3317</p>
+                            <a href="https://wa.me/5215571513317" class="contact-link">Enviar mensaje →</a>
+                        </div>
+                    </div>
+
+                    <!-- OPCIÓN 2: EMAIL -->
+                    <div class="contact-item" data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>damg16092006@gmail.com</p>
+                            <a href="mailto:damg16092006@gmail.com" class="contact-link">Enviar correo →</a>
+                        </div>
+                    </div>
+
+                    <!-- OPCIÓN 3: DISPONIBILIDAD -->
+                    <div class="contact-item" data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Disponibilidad</h4>
+                            <p>Lunes a viernes 9AM - 1:30PM</p>
+                            <p>Sábado 9:30AM - 3:30PM</p>
+                            <span class="status">En línea ahora</span>
+                        </div>
+                    </div>
+
+                    <!-- OPCIÓN 4: UBICACIÓN -->
+                    <div class="contact-item" data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Ciudad de México</p>
+                            <span class="status">Servicio a domicilio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FORMULARIO DE CONTACTO (LADO DERECHO) -->
+                <form class="contacto-form" data-aos="fade-left" data-aos-duration="800">
+                    <h3>Envíame un Mensaje</h3>
+                    
+                    <!-- CAMPO: NOMBRE -->
+                    <div class="form-group">
+                        <input type="text" placeholder="Tu nombre" required>
+                    </div>
+                    
+                    <!-- CAMPO: EMAIL -->
+                    <div class="form-group">
+                        <input type="email" placeholder="Tu email" required>
+                    </div>
+                    
+                    <!-- CAMPO: TELÉFONO -->
+                    <div class="form-group">
+                        <input type="tel" placeholder="Tu teléfono">
+                    </div>
+                    
+                    <!-- CAMPO: MENSAJE -->
+                    <div class="form-group">
+                        <textarea placeholder="Tu mensaje" rows="4" required></textarea>
+                    </div>
+                    
+                    <!-- BOTÓN ENVIAR -->
+                    <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    ====================================
+    MODAL DE TRABAJOS
+    ====================================
+    Popup con detalles completos de los trabajos
+    -->
+    <div id="trabajoModal" class="modal">
+        <div class="modal-content">
+            <button class="cerrar-modal" onclick="cerrarModal()">&times;</button>
+            
+            <!-- MODAL 1: ANTES Y DESPUÉS -->
+            <div id="modal1" class="modal-trabajo">
+                <div class="modal-header">
+                    <i class="fas fa-images"></i>
+                    <h2>Transformación Visual Completa</h2>
+                </div>
+                <div class="modal-body">
+                    <h3>Captura la Evidencia</h3>
+                    <p>Transformación visual de PC optimizadas. Cambio dramático en velocidad y responsividad.</p>
+                    
+                    <div class="modal-detalles">
+                        <h4><i class="fas fa-check-circle"></i> Lo que hacemos:</h4>
+                        <ul>
+                            <li>Limpieza profunda del sistema</li>
+                            <li>Eliminación completa de malware y virus</li>
+                            <li>Optimización de recursos del sistema</li>
+                            <li>Actualización de drivers</li>
+                            <li>Configuración de autoarranque</li>
+                            <li>Gestión inteligente de RAM</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-antes-despues">
+                        <div class="modal-seccion">
+                            <h4>⚠️ Antes</h4>
+                            <ul>
+                                <li>PC lenta y atolondrada</li>
+                                <li>Arranque en 3-5 minutos</li>
+                                <li>Bajo en RAM y CPU</li>
+                                <li>Archivos temporales acumulados</li>
+                                <li>Programas basura instalados</li>
+                            </ul>
+                        </div>
+                        <div class="modal-seccion">
+                            <h4>✅ Después</h4>
+                            <ul>
+                                <li>PC fluida y ágil</li>
+                                <li>Arranque en 20-30 segundos</li>
+                                <li>Máximo rendimiento de RAM y CPU</li>
+                                <li>Sistema limpio y despejado</li>
+                                <li>Solo programas esenciales</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="modal-cta">
+                        <a href="https://wa.me/5215571513317?text=Me%20interesa%20la%20optimización%20completa%20de%20mi%20PC" class="btn-modal-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Solicitar Optimización
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MODAL 2: VELOCIDAD -->
+            <div id="modal2" class="modal-trabajo">
+                <div class="modal-header">
+                    <i class="fas fa-gauge-high"></i>
+                    <h2>Velocidad Comprobada</h2>
+                </div>
+                <div class="modal-body">
+                    <h3>Mediciones Reales de Rendimiento</h3>
+                    <p>Los números no mienten. Estas son las mejoras reales de nuestros clientes.</p>
+
+                    <div class="modal-velocidades">
+                        <div class="velocidad-item">
+                            <div class="velocidad-numero">+85%</div>
+                            <div class="velocidad-label">Mejora General</div>
+                        </div>
+                        <div class="velocidad-item">
+                            <div class="velocidad-numero">12s</div>
+                            <div class="velocidad-label">Arranque</div>
+                        </div>
+                        <div class="velocidad-item">
+                            <div class="velocidad-numero">-90%</div>
+                            <div class="velocidad-label">Consumo CPU</div>
+                        </div>
+                        <div class="velocidad-item">
+                            <div class="velocidad-numero">-75%</div>
+                            <div class="velocidad-label">Consumo RAM</div>
+                        </div>
+                    </div>
+
+                    <div class="modal-detalles">
+                        <h4><i class="fas fa-tachometer-alt"></i> Beneficios de la Optimización:</h4>
+                        <ul>
+                            <li>Arranque más rápido: De 3-5 min a 15-30 seg</li>
+                            <li>Apertura de programas instantánea</li>
+                            <li>Navegación web sin lag</li>
+                            <li>Mejor rendimiento en videos y juegos</li>
+                            <li>Menos consumo de energía</li>
+                            <li>Mayor duración de batería en laptops</li>
+                            <li>PC más estable y sin cuelgues</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-cta">
+                        <a href="https://wa.me/5215571513317?text=Quiero%20que%20mi%20PC%20sea%20más%20rápida" class="btn-modal-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Solicitar Optimización
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MODAL 3: TESTIMONIO -->
+            <div id="modal3" class="modal-trabajo">
+                <div class="modal-header">
+                    <i class="fas fa-star"></i>
+                    <h2>Testimonios de Clientes Reales</h2>
+                </div>
+                <div class="modal-body">
+                    <h3>Lo que Dicen Nuestros Clientes</h3>
+                    
+                    <div class="modal-testimonios">
+                        <div class="testimonio-card">
+                            <div class="testimonio-stars">
+                                ⭐ ⭐ ⭐ ⭐ ⭐
+                            </div>
+                            <p className="testimonio-texto">"Diego es un profesional excelente. Mi computadora estaba lentísima y ahora vuela. Super recomendado, excelente atención y precio justo."</p>
+                            <div class="testimonio-autor">
+                                <i class="fas fa-user-tie"></i>
+                                <div>
+                                    <strong>Carlos M.</strong>
+                                    <span>Cliente Verificado</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonio-card">
+                            <div class="testimonio-stars">
+                                ⭐ ⭐ ⭐ ⭐ ⭐
+                            </div>
+                            <p className="testimonio-texto">"Excelente servicio, muy profesional y puntual. Mi laptop funciona como nueva. Lo recomiendo ampliamente."</p>
+                            <div class="testimonio-autor">
+                                <i class="fas fa-user-tie"></i>
+                                <div>
+                                    <strong>María L.</strong>
+                                    <span>Cliente Verificado</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonio-card">
+                            <div class="testimonio-stars">
+                                ⭐ ⭐ ⭐ ⭐ ⭐
+                            </div>
+                            <p className="testimonio-texto">"Increíble la diferencia. Mi PC está como nueva, muy rápida y el servicio fue impecable. Altamente recomendado."</p>
+                            <div class="testimonio-autor">
+                                <i class="fas fa-user-tie"></i>
+                                <div>
+                                    <strong>Juan R.</strong>
+                                    <span>Cliente Verificado</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-stats">
+                        <div class="stat-modal">
+                            <div class="stat-numero">500+</div>
+                            <div class="stat-texto">Clientes Satisfechos</div>
+                        </div>
+                        <div class="stat-modal">
+                            <div class="stat-numero">100%</div>
+                            <div class="stat-texto">Satisfacción Garantizada</div>
+                        </div>
+                        <div class="stat-modal">
+                            <div class="stat-numero">8+</div>
+                            <div class="stat-texto">Años de Experiencia</div>
+                        </div>
+                    </div>
+
+                    <div class="modal-cta">
+                        <a href="https://wa.me/5215571513317?text=Me%20gustaría%20mejorar%20mi%20PC" class="btn-modal-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Unirme a Clientes Satisfechos
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+    ====================================
+    SECCIÓN 6.5: SELLO DE CONFIANZA
+    ====================================
+    Indicadores de confianza y garantías
+    -->
+    <section class="confianza">
+        <div class="container">
+            <div class="confianza-grid">
+                <!-- GARANTÍA -->
+                <div class="confianza-item" data-aos="fade-up" data-aos-duration="800">
+                    <div class="confianza-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Garantía 100%</h4>
+                    <p>Satisfacción garantizada o devolvemos tu dinero</p>
+                </div>
+
+                <!-- SERVICIO RÁPIDO -->
+                <div class="confianza-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <div class="confianza-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h4>Servicio Rápido</h4>
+                    <p>Atención en 24-48 horas desde tu solicitud</p>
+                </div>
+
+                
+
+                <!-- SEGURIDAD DE DATOS -->
+                <div class="confianza-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                    <div class="confianza-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h4>Seguridad Total</h4>
+                    <p>Tus datos personales 100% protegidos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    ====================================
+    SECCIÓN 7: FOOTER
+    ====================================
+    Pie de página con información de la empresa y redes sociales
+    -->
+    <footer class="footer">
+        <div class="container">
+            <!-- CONTENIDO DEL FOOTER -->
+            <div class="footer-content">
+                <!-- COLUMNA 1: INFORMACIÓN -->
+                <div class="footer-section" data-aos="fade-up" data-aos-duration="800">
+                    <h4>Diego Tech</h4>
+                    <p>Soporte Técnico & Ingeniería Smart</p>
+                </div>
+                
+                <!-- COLUMNA 2: ENLACES RÁPIDOS -->
+                <div class="footer-section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#paquetes">Paquetes</a></li>
+                        <li><a href="#trabajos">Trabajos</a></li>
+                    </ul>
+                </div>
+                
+                <!-- COLUMNA 3: REDES SOCIALES -->
+                <div class="footer-section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <h4>Sígueme</h4>
+                    <div class="social-icons">
+                        <a href="https://wa.me/5215571513317" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PIE DE PÁGINA -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 Diego Tech - Soporte Técnico & Ingeniería Smart. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- JavaScript del sitio -->
+    <script src="js/script.js"></script>
+    
+    <!-- AOS - Animate On Scroll (Animaciones) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Inicializar AOS -->
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
